@@ -15,6 +15,7 @@ import com.nineoldandroids.animation.ArgbEvaluator;
 
 /**
  * Created by zzz40500 on 15/4/4.
+ * 动画吗
  */
 public class ShapeLoadingView extends View {
     /**
