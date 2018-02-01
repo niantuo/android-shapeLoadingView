@@ -1,14 +1,14 @@
 package com.mingle;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
 import com.mingle.widget.ShapeLoadingDialog;
 
-public class DialogDemoActivity extends ActionBarActivity {
+public class DialogDemoActivity extends AppCompatActivity {
 
     private ShapeLoadingDialog shapeLoadingDialog;
 

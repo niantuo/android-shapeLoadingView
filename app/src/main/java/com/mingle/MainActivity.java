@@ -1,17 +1,14 @@
 package com.mingle;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
 
-public class MainActivity extends ActionBarActivity {
-
-
-
+public class MainActivity extends AppCompatActivity {
 
 
     @Override
@@ -22,21 +19,18 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
 
-                MainActivity.this.startActivity(new Intent(MainActivity.this,ViewDemoActivity.class));
+                MainActivity.this.startActivity(new Intent(MainActivity.this, ViewDemoActivity.class));
             }
         });
         findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                MainActivity.this.startActivity(new Intent(MainActivity.this,DialogDemoActivity.class));
+                MainActivity.this.startActivity(new Intent(MainActivity.this, DialogDemoActivity.class));
             }
         });
 
     }
-
-
-
 
 
     @Override

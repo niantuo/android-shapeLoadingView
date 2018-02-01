@@ -25,8 +25,8 @@ import org.jetbrains.anko.*
  * 改用kotlin语言编写
  */
 class LoadingView(context: Context, attrs: AttributeSet? = null,
-                  defStyleAttr: Int = 0, defStyleRes: Int = 0)
-    : LinearLayout(context, attrs, defStyleAttr, defStyleRes) {
+                  defStyleAttr: Int = 0)
+    : LinearLayout(context, attrs, defStyleAttr) {
 
     private var mShapeLoadingView: ShapeLoadingView? = null
     private var mIndicationIm: ImageView? = null
@@ -58,8 +58,8 @@ class LoadingView(context: Context, attrs: AttributeSet? = null,
         }
 
 
-    constructor(context: Context) : this(context, null, 0, 0)
-    constructor(context: Context, attrs: AttributeSet?) : this(context, attrs, 0, 0)
+    constructor(context: Context) : this(context, null, 0)
+    constructor(context: Context, attrs: AttributeSet?) : this(context, attrs, 0)
 
 
     init {
